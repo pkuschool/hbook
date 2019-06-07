@@ -1,0 +1,41 @@
+{
+    "plugins": [
+       "tbfed-pagefooter",
+       "splitter",
+       "back-to-top-button",
+       "advanced-emoji",
+       "pageview-count",
+       "auto-scroll-table",
+       "popup",
+       "url-embed",
+       "alerts",
+       "-sharing",
+       "github",
+       "emphasize",
+       "-lunr",
+       "-search",
+       "search-plus",
+       "github-buttons",
+       "expandable-chapters-small"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy 北大附中",
+            "modify_label": "Updated:",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github": {
+            "url": "https://github.com/pkuschool/hbook/issues"
+        },
+        "github-buttons": {
+            "buttons": [
+              {
+                "user": "pkuschool",
+                "type": "follow",
+                "width": "230",
+                "size": "small"
+              }
+            ]
+            }
+    }
+}
